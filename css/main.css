@@ -98,6 +98,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+body{
+  font-family: 'PT Serif', serif;
+}
+
+
+
+
 nav{
 width: 100%;
 background-color: #620919;
@@ -105,30 +113,59 @@ height: 120px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-font-family:coiny;
+font-family: 'Coiny', cursive;
 font-size: 40px
 }
 
 nav a {
   color: #fff;
   text-decoration: none;
+  margin-right: 40px;
 }
-<.hero=class>
-<img src="28748-silentsiren-60lv.png"
+.hero{
+  width: 100%;
+  height: 800px;
+  background-color: #ebebeb;
+  background-image: url('../img/Group 1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+
+  p {
+    font-family: 'PT Serif', serif;
+    font-size: 18;
+    color: white;
+
+  }
 
 h1{
   width: 100%;
   background-color: #620919;
-  height: 1840px;
+  height: 20px;
   color: #fff;
-  font-family: coiny;
-  font-size: 20px
+  font-family: 'Coiny', cursive;
+  font-size: 30px
+}
+.reusablesection{
+width: 100%;
+background-color: #620919;
+height: 500px;
+margin: auto;
+color: #fff;
+font-family: 'PT Serif', serif;
+font-size: 18px;
+}
+
+P{
+  padding-left: 30px;
+  Padding-right: 800px;
 }
 h2{
   width: 100%;
   background-color: #620919;
-  height: 500px;
+  height: 20px;
   color: #fff;
   font-family: coiny;
   font-size: 20px
@@ -145,6 +182,10 @@ h3{
 
 }
 
+ li{
+   margin-left: 20px;
+   margin-right: 600px;
+ }
 
 /* ==========================================================================
    Helper classes
