@@ -146,45 +146,67 @@ h1{
   height: 20px;
   color: #fff;
   font-family: 'Coiny', cursive;
-  font-size: 30px
+  font-size: 30px;
+  margin-left: 40px; top: 10px
 }
 .reusablesection{
 width: 100%;
 background-color: #620919;
-height: 500px;
-margin: auto;
 color: #fff;
 font-family: 'PT Serif', serif;
 font-size: 18px;
+padding-top: 80px;
 }
 
-P{
-  padding-left: 30px;
-  Padding-right: 800px;
+.reusablesection img{
+  width: 100%;
+  height: auto;
 }
+
+.kawaii_info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+.kawaii_img{
+  width: 50%;
+  margin: 2%;
+}
+
+.kawaii_text{
+  width: 50%;
+  margin: 2%;
+
+}
+
+
 h2{
   width: 100%;
   background-color: #620919;
-  height: 20px;
+  height: 30px;
   color: #fff;
   font-family: coiny;
-  font-size: 20px
+  font-size: 30px;
+  margin-left: 40px;
 }
 
 
 h3{
   width: 100%;
   background-color: #620919;
-  height: 1840px;
+  height: 50px;
   color: #fff;
   font-family: coiny;
-  font-size: 20px;
-
+  font-size: 30px;
 }
 
  li{
    margin-left: 20px;
    margin-right: 600px;
+ }
  }
 
 /* ==========================================================================
