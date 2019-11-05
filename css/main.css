@@ -17,7 +17,7 @@
     font-size: 1em;
     line-height: 1.4;
   }
-  
+
   /*
    * Remove text-shadow in selection highlight:
    * https://twitter.com/miketaylr/status/12228805301
@@ -27,21 +27,21 @@
    *
    * Customize the background color to match your design.
    */
-  
+
   ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
   }
-  
+
   ::selection {
     background: #b3d4fc;
     text-shadow: none;
   }
-  
+
   /*
    * A better looking default horizontal rule
    */
-  
+
   hr {
     display: block;
     height: 1px;
@@ -50,13 +50,13 @@
     margin: 1em 0;
     padding: 0;
   }
-  
+
   /*
    * Remove the gap between audio, canvas, iframes,
    * images, videos and the bottom of their containers:
    * https://github.com/h5bp/html5-boilerplate/issues/440
    */
-  
+
   audio,
   canvas,
   iframe,
@@ -65,51 +65,51 @@
   video {
     vertical-align: middle;
   }
-  
+
   /*
    * Remove default fieldset styles.
    */
-  
+
   fieldset {
     border: 0;
     margin: 0;
     padding: 0;
   }
-  
+
   /*
    * Allow only vertical resizing of textareas.
    */
-  
+
   textarea {
     resize: vertical;
   }
-  
+
   /* ==========================================================================
      Browser Upgrade Prompt
      ========================================================================== */
-  
+
   .browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
     padding: 0.2em 0;
   }
-  
+
   /* ==========================================================================
      Author's custom styles
      ========================================================================== */
-  
+
   body {
     font-family: 'PT Serif', serif;
     scroll-behavior: smooth;
   }
-  
+
   h1,
   h2,
   h3 {
     margin: 0 auto;
   }
-  
+
   nav {
     width: 100%;
     background-color: #620919;
@@ -118,15 +118,16 @@
     justify-content: space-between;
     align-items: center;
     font-family: 'Coiny', cursive;
-    font-size: 40px
+    font-size: 40px;
+    text-shadow: 2px 2px 5px black;
   }
-  
-  nav a {
-    color: #fff;
+
+  nav a{
     text-decoration: none;
     margin-right: 40px;
+    color: #fff;
   }
-  
+
   .hero {
     width: 100%;
     height: 800px;
@@ -136,13 +137,14 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   p {
     font-family: 'PT Serif', serif;
     font-size: 18;
     color: white;
+    margin-left: 40px;
   }
-  
+
   h1 {
     width: 100%;
     background-color: #620919;
@@ -150,8 +152,10 @@
     color: #fff;
     font-family: 'Coiny', cursive;
     font-size: 30px;
+    margin-left: 40px;
+    text-shadow: 2px 2px 5px black;
   }
-  
+
   .reusablesection {
     width: 100%;
     background-color: #620919;
@@ -160,12 +164,12 @@
     font-size: 18px;
     padding-top: 80px;
   }
-  
+
   .reusablesection img {
     width: 100%;
     height: auto;
   }
-  
+
   .kawaii_info {
     display: flex;
     justify-content: space-between;
@@ -173,17 +177,17 @@
     margin: 0 auto;
     flex-direction: row;
   }
-  
+
   .kawaii_img {
     width: 50%;
     margin: 2%;
   }
-  
+
   .kawaii_text {
     width: 50%;
     margin: 2%;
   }
-  
+
   h2 {
     width: 100%;
     background-color: #620919;
@@ -192,8 +196,9 @@
     font-family: coiny;
     font-size: 30px;
     margin-left: 40px;
+    text-shadow: 2px 2px 5px black;
   }
-  
+
   h3 {
     width: 100%;
     background-color: #620919;
@@ -201,24 +206,35 @@
     color: #fff;
     font-family: coiny;
     font-size: 30px;
+    text-shadow: 2px 2px 5px black;
   }
-  
+
   li {
     list-style-type: none;
   }
-  
+
+footer{
+  width: auto;
+  height: 30px;
+  display: block;
+  background-color: black;
+  color:#fff;
+  text-align: center; 
+  text-size: 10px;
+}
+
   /* ==========================================================================
      Helper classes
      ========================================================================== */
-  
+
   /*
    * Hide visually and from screen readers
    */
-  
+
   .hidden {
     display: none !important;
   }
-  
+
   /*
   * Hide only visually, but have it available for screen readers:
   * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
@@ -227,7 +243,7 @@
   *    causes content to wrap 1 word per line:
   *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
   */
-  
+
   .sr-only {
     border: 0;
     clip: rect(0, 0, 0, 0);
@@ -240,13 +256,13 @@
     width: 1px;
     /* 1 */
   }
-  
+
   /*
   * Extends the .sr-only class to allow the element
   * to be focusable when navigated to via the keyboard:
   * https://www.drupal.org/node/897638
   */
-  
+
   .sr-only.focusable:active,
   .sr-only.focusable:focus {
     clip: auto;
@@ -257,15 +273,15 @@
     white-space: inherit;
     width: auto;
   }
-  
+
   /*
   * Hide visually and from screen readers, but maintain layout
   */
-  
+
   .invisible {
     visibility: hidden;
   }
-  
+
   /*
   * Clearfix: contain floats
   *
@@ -277,7 +293,7 @@
   * 2. The use of `table` rather than `block` is only necessary if using
   *    `:before` to contain the top-margins of child elements.
   */
-  
+
   .clearfix:before,
   .clearfix:after {
     content: " ";
@@ -285,34 +301,34 @@
     display: table;
     /* 2 */
   }
-  
+
   .clearfix:after {
     clear: both;
   }
-  
+
   /* ==========================================================================
      EXAMPLE Media Queries for Responsive Design.
      These examples override the primary ('mobile first') styles.
      Modify as content requires.
      ========================================================================== */
-  
+
   @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
   }
-  
+
   @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
   (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
   }
-  
+
   /* ==========================================================================
      Print styles.
      Inlined to avoid the additional HTTP request:
      https://www.phpied.com/delay-loading-your-print-css/
      ========================================================================== */
-  
+
   @media print {
     *,
     *:before,
