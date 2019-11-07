@@ -127,6 +127,14 @@
     margin-right: 40px;
     color: #fff;
   }
+  a:hover {
+    -webkit-stroke-width: 5.3px;
+     -webkit-stroke-color: #FFFFFF;
+     -webkit-fill-color: #FFFFFF;
+     text-shadow: 1px 0px 25px #FFCAEA;
+  }
+
+
 
   .hero {
     width: 100%;
@@ -143,6 +151,7 @@
     font-size: 18;
     color: white;
     margin-left: 40px;
+    margin-top: 40px;
   }
 
   h1 {
@@ -162,7 +171,7 @@
     color: #fff;
     font-family: 'PT Serif', serif;
     font-size: 18px;
-    padding-top: 80px;
+    padding-top: 50px;
   }
 
   .reusablesection img {
@@ -174,8 +183,9 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 0 auto;
+    margin:0 auto;
     flex-direction: row;
+    line-height: 30px;
   }
 
   .kawaii_img {
@@ -211,6 +221,7 @@
 
   li {
     list-style-type: none;
+    text-overflow:ellipsis;
   }
 
 footer{
@@ -219,7 +230,7 @@ footer{
   display: block;
   background-color: black;
   color:#fff;
-  text-align: center; 
+  text-align: center;
   text-size: 10px;
 }
 
@@ -312,9 +323,66 @@ footer{
      Modify as content requires.
      ========================================================================== */
 
-  @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-  }
+     /* On screens that are 1000px wide or less */
+     @media screen and (max-width: 1000px) {
+       nav {
+         width: 100%;
+         background-color: #620919;
+         height: 100px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         font-family: 'Coiny', cursive;
+         font-size: 30px;
+         text-shadow: 2px 2px 5px black;
+       }
+       .hero {
+         width: 100%;
+         height: 600px;
+         background-color: #ebebeb;
+         background-image: url('../img/Group 1.jpg');
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+       }
+       p {
+         font-family: 'PT Serif', serif;
+         font-size: 16;
+         color: white;
+         margin-left: 40px;
+         margin-top: 40px;
+       }
+     }
+
+     /* On screens that are 900px wide or less */
+     @media screen and (max-width: 900px) {
+         .kawaii_info {
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+          }
+
+     }
+
+     /* On screens that are 768px wide or less */
+     @media screen and (max-width: 768px) {
+
+     }
+
+     /* On screens that are 550px wide or less */
+     @media screen and (max-width: 550px) {
+
+     }
+
+     /* On screens that are 450px wide or less */
+     @media screen and (max-width: 450px) {
+
+     }
+
+     /* On screens that are 300px wide or less */
+     @media screen and (max-width: 300px) {
+
+     }
 
   @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
