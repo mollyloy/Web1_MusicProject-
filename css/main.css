@@ -155,7 +155,6 @@
   }
 
   h1 {
-    width: 100%;
     background-color: #620919;
     height: 20px;
     color: #fff;
@@ -199,7 +198,6 @@
   }
 
   h2 {
-    width: 100%;
     background-color: #620919;
     height: 30px;
     color: #fff;
@@ -210,7 +208,6 @@
   }
 
   h3 {
-    width: 100%;
     background-color: #620919;
     height: 50px;
     color: #fff;
@@ -219,19 +216,25 @@
     text-shadow: 2px 2px 5px black;
   }
 
-  li {
-    list-style-type: none;
-    text-overflow:ellipsis;
-  }
+  dl{ width: 600px;}
+
+dt { float: left; width: 300px; overflow: hidden; white-space: nowrap; padding-right: 6px; }
+dd {  width: 200px; overflow: hidden;  padding-left: 6px;}
+
+dt span:after { content: " .........................................................." }
 
 footer{
   width: auto;
-  height: 30px;
+  height: 70px;
   display: block;
   background-color: black;
   color:#fff;
   text-align: center;
-  text-size: 10px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
   /* ==========================================================================
@@ -381,12 +384,17 @@ footer{
          text-decoration: none;
          color: #fff;
          display: flex;
+         font-size: 16px;
        }
        a:hover {
          -webkit-stroke-width: 5.3px;
           -webkit-stroke-color: #FFFFFF;
           -webkit-fill-color: #FFFFFF;
           text-shadow: 1px 0px 25px #FFCAEA;
+       }
+
+       nav img{
+         width: 30%;
        }
        .hero {
          width: 100%;
@@ -404,7 +412,6 @@ footer{
          margin-top: 40px;
        }
        h1 {
-         width: 100%;
          background-color: #620919;
          height: 60px;
          color: #fff;
@@ -435,15 +442,19 @@ footer{
       .kawaii_img {
 width: 100%;
 display: center;
+margin: 0 auto;
       }
 
       .kawaii_text {
-        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
         margin: 2%;
+        flex-direction: column;
       }
 
       h2 {
-        width: 100%;
         background-color: #620919;
         height: 30px;
         color: #fff;
@@ -454,7 +465,6 @@ display: center;
       }
 
       h3 {
-        width: 100%;
         background-color: #620919;
         height: 50px;
         color: #fff;
@@ -466,6 +476,10 @@ display: center;
       li {
         list-style-type: none;
         text-overflow:ellipsis;
+      }
+
+      .kawaii_info {
+        flex-direction: column;
       }
 
     footer{
