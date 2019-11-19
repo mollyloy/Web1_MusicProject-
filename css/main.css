@@ -132,6 +132,8 @@
      -webkit-stroke-color: #FFFFFF;
      -webkit-fill-color: #FFFFFF;
      text-shadow: 1px 0px 25px #FFCAEA;
+     transform: scale(1.1);
+
   }
 
 
@@ -216,7 +218,8 @@
     text-shadow: 2px 2px 5px black;
   }
 
-  dl{ width: 600px;}
+  dl{ width: 600px;
+  margin-left: 40px;}
 
 dt { float: left; width: 300px; overflow: hidden; white-space: nowrap; padding-right: 6px; }
 dd {  width: 200px; overflow: hidden;  padding-left: 6px;}
@@ -359,14 +362,59 @@ footer{
 
      /* On screens that are 900px wide or less */
      @media screen and (max-width: 900px) {
-         .kawaii_info {
-           flex-direction: column;
-           justify-content: center;
-           align-items: center;
-          }
+       nav {
+         width: 100%;
+         background-color: #620919;
+         height: 100px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         font-family: 'Coiny', cursive;
+         font-size: 30px;
+         text-shadow: 2px 2px 5px black;
+       }
+       .hero {
+         width: 100%;
+         height: 600px;
+         background-color: #ebebeb;
+         background-image: url('../img/Group 1.jpg');
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+       }
+       p {
+         font-family: 'PT Serif', serif;
+         font-size: 14px;
+         color: white;
+         margin-left: 40px;
+         margin-top: 40px;
+       }
+       .reusablesection {
+         width: 100%;
+         background-color: #620919;
+         color: #fff;
+         font-family: 'PT Serif', serif;
+         font-size: 14px;
+      }
+      dl{ width: 275px;
+      margin-left: 20px;
+      font-size: 12px;
+      }
 
-     }
+      dl{ width: 260px;
+      align-items: center;
+      margin-left: 60px;}
 
+      dt { float: left; width: 150px; overflow: hidden; white-space: nowrap; padding-right: 6px; }
+      dd {  width: 100px; overflow: hidden;}
+
+
+      dt { float: left; width: 135px; overflow: hidden; white-space: nowrap;}
+
+
+      dt span:after { content: " ........................................" }
+
+}
      /* On screens that are 768px wide or less */
      @media screen and (max-width: 768px) {
        nav {
@@ -385,7 +433,7 @@ footer{
          text-decoration: none;
          color: #fff;
          display: flex;
-         font-size: 16px;
+         font-size: 20px;
        }
        a:hover {
          -webkit-stroke-width: 5.3px;
@@ -408,10 +456,11 @@ footer{
        }
        p {
          font-family: 'PT Serif', serif;
-         font-size: 18;
+         font-size: 18px;
          color: white;
          margin-top: 40px;
          align-items: center;
+         margin-top: 10px;
        }
        h1 {
          background-color: #620919;
@@ -462,7 +511,7 @@ footer{
         color: #fff;
         font-family: coiny;
         font-size: 30px;
-        margin-left: 40px;
+        margin-left: 40px
         text-shadow: 2px 2px 5px black;
       }
 
@@ -473,12 +522,30 @@ footer{
         font-family: coiny;
         font-size: 30px;
         text-shadow: 2px 2px 5px black;
+      margin-left: 40px;
       }
 
       li {
         list-style-type: none;
         text-overflow:ellipsis;
       }
+      dl{ width: 275px;
+      margin-left: 20px;
+      font-size: 12px;
+      }
+
+      dl{ width: 260px;
+      margin-left: 60px;}
+
+      dt { float: left; width: 150px; overflow: hidden; white-space: nowrap; padding-right: 6px; }
+      dd {  width: 100px; overflow: hidden;}
+
+
+      dt { float: left; width: 135px; overflow: hidden; white-space: nowrap;}
+
+
+      dt span:after { content: " ........................................" }
+
 
       .kawaii_info {
         flex-direction: column;
@@ -535,6 +602,7 @@ footer{
           font-size: 12px;
           color: white;
           display: flex;
+          margin-top: 30px;
 
         }
         h1 {
@@ -577,7 +645,9 @@ margin-left: 20px;
 font-size: 12px;
 }
 
-dl{ width: 260px;}
+dl{ width: 260px;
+align-items: center;
+margin-left: 60px;}
 
 dt { float: left; width: 150px; overflow: hidden; white-space: nowrap; padding-right: 6px; }
 dd {  width: 100px; overflow: hidden;}
