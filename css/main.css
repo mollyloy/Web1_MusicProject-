@@ -16,6 +16,7 @@
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    overflow-x: hidden;
   }
 
   /*
@@ -505,13 +506,26 @@ footer{
         flex-direction: column;
       }
 
+      .kawaii_text h2{
+        position: relative;
+        left: 40px;
+      }
+
+      h1#about {
+        position: relative;
+        left: 145px;
+    }
+
+      h2#reviews {
+        position: relative;
+        left: 122px;
+    }
       h2 {
         background-color: #620919;
         height: 30px;
         color: #fff;
         font-family: coiny;
         font-size: 30px;
-        margin-left: 40px
         text-shadow: 2px 2px 5px black;
       }
 
@@ -529,19 +543,20 @@ footer{
         list-style-type: none;
         text-overflow:ellipsis;
       }
-      dl{ width: 275px;
-      margin-left: 20px;
-      font-size: 12px;
+
+      dl{
+         width: 550px;
+         margin-left: 280px;
+         font-size: 12px;}
+
+      dd{ 
+        width: 250px; 
+        overflow: hidden;
+       padding-left: 1px;
       }
 
-      dl{ width: 260px;
-      margin-left: 60px;}
 
-      dt { float: left; width: 150px; overflow: hidden; white-space: nowrap; padding-right: 6px; }
-      dd {  width: 100px; overflow: hidden;}
-
-
-      dt { float: left; width: 135px; overflow: hidden; white-space: nowrap;}
+      dt { float: left; width: 203px; overflow: hidden; white-space: nowrap;}
 
 
       dt span:after { content: " ........................................" }
