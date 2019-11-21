@@ -385,32 +385,33 @@ footer{
        }
        p {
          font-family: 'PT Serif', serif;
-         font-size: 14px;
+         font-size: 18px;
          color: white;
          margin-left: 40px;
-         margin-top: 40px;
+         margin-top: 20px;
        }
        .reusablesection {
          width: 100%;
          background-color: #620919;
          color: #fff;
          font-family: 'PT Serif', serif;
-         font-size: 14px;
+         font-size: 18px;
       }
-      dl{ width: 275px;
-      margin-left: 20px;
-      font-size: 12px;
+      dl{ width: 400px;
+      margin-left: 40px;
+      font-size: 18px;
       }
-
-      dl{ width: 260px;
-      align-items: center;
-      margin-left: 60px;}
-
-      dt { float: left; width: 150px; overflow: hidden; white-space: nowrap; padding-right: 6px; }
+      h3{
+        margin-left: 40px;
+      }
+**issue with 768 h3** 
+      dt { float: left; width: 150px; overflow: hidden; white-space: nowrap; padding-right: 30px; }
       dd {  width: 100px; overflow: hidden;}
 
 
-      dt { float: left; width: 135px; overflow: hidden; white-space: nowrap;}
+      dt { float: left;
+        /*width: 400px; */
+        overflow: hidden; white-space: nowrap;}
 
 
       dt span:after { content: " ........................................" }
@@ -461,7 +462,7 @@ footer{
          color: white;
          margin-top: 40px;
          align-items: center;
-         margin-top: 10px;
+         margin-top: 1px;
        }
        h1 {
          background-color: #620919;
@@ -510,16 +511,10 @@ footer{
         position: relative;
         left: 40px;
       }
+      h1{
+        margin-left: 30px;
+      }
 
-      h1#about {
-        position: relative;
-        left: 145px;
-    }
-
-      h2#reviews {
-        position: relative;
-        left: 122px;
-    }
       h2 {
         background-color: #620919;
         height: 30px;
@@ -527,6 +522,7 @@ footer{
         font-family: coiny;
         font-size: 30px;
         text-shadow: 2px 2px 5px black;
+        margin-left: 5px;
       }
 
       h3 {
@@ -536,7 +532,7 @@ footer{
         font-family: coiny;
         font-size: 30px;
         text-shadow: 2px 2px 5px black;
-      margin-left: 40px;
+        margin-left: 120px;
       }
 
       li {
@@ -547,16 +543,16 @@ footer{
       dl{
          width: 550px;
          margin-left: 280px;
-         font-size: 12px;}
+         font-size: 18px;}
 
-      dd{ 
-        width: 250px; 
+      dd{
+        width: 250px;
         overflow: hidden;
        padding-left: 1px;
       }
 
 
-      dt { float: left; width: 203px; overflow: hidden; white-space: nowrap;}
+      dt { float: left; width: 180px; overflow: hidden; white-space: nowrap;}
 
 
       dt span:after { content: " ........................................" }
@@ -627,6 +623,7 @@ footer{
           font-family: 'Coiny', cursive;
           font-size: 20px;
           text-shadow: 2px 2px 5px black;
+
 }
 
 .reusablesection {
@@ -643,7 +640,6 @@ h2 {
   color: #fff;
   font-family: coiny;
   font-size: 20px;
-  margin-left: 40px;
   text-shadow: 2px 2px 5px black;
 }
 
