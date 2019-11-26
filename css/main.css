@@ -178,7 +178,7 @@
 
   .reusablesection img {
     width: 100%;
-    display: center;
+     display: center;
   }
 
   .kawaii_info {
@@ -191,7 +191,12 @@
   }
 
   .kawaii_img {
-    width: 50%;
+    width: 1000px;
+    margin: 2%;
+  }
+
+  .kawaii_img img{
+    width: 1000px;
     margin: 2%;
   }
 
@@ -217,6 +222,7 @@
     font-family: coiny;
     font-size: 30px;
     text-shadow: 2px 2px 5px black;
+    margin-left: 40px;
   }
 
   dl{ width: 600px;
@@ -359,6 +365,10 @@ footer{
          margin-left: 40px;
          margin-top: 40px;
        }
+       .kawaii_img{
+         width: 400px;
+         margin-top: 40px;
+       }
      }
 
      /* On screens that are 900px wide or less */
@@ -383,6 +393,10 @@ footer{
          background-repeat: no-repeat;
          background-size: cover;
        }
+      .kawaii_img{
+        width: 350px;
+        margin-top: 40px;
+      }
        p {
          font-family: 'PT Serif', serif;
          font-size: 18px;
@@ -404,17 +418,11 @@ footer{
       h3{
         margin-left: 40px;
       }
-**issue with 768 h3** 
-      dt { float: left; width: 150px; overflow: hidden; white-space: nowrap; padding-right: 30px; }
-      dd {  width: 100px; overflow: hidden;}
 
+      dt { float: left; width: 100px; overflow: hidden; white-space: nowrap; padding-right: 120px; }
+      dd {  width: 150px; overflow: hidden;  padding-left: 8px;}
 
-      dt { float: left;
-        /*width: 400px; */
-        overflow: hidden; white-space: nowrap;}
-
-
-      dt span:after { content: " ........................................" }
+      dt span:after { content: " .........................................................." }
 
 }
      /* On screens that are 768px wide or less */
@@ -525,38 +533,25 @@ footer{
         margin-left: 5px;
       }
 
-      h3 {
-        background-color: #620919;
-        height: 50px;
-        color: #fff;
-        font-family: coiny;
-        font-size: 30px;
-        text-shadow: 2px 2px 5px black;
-        margin-left: 120px;
-      }
+h3{
+    background-color: #620919;
+    height: 30px;
+    color: #fff;
+    font-family: coiny;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px black;
+    margin-left: 180px;
+}
+
 
       li {
         list-style-type: none;
         text-overflow:ellipsis;
       }
+      dt { float: left; width: 100px; overflow: hidden; white-space: nowrap; padding-right: 120px; }
+      dd {  width: 150px; overflow: hidden;  padding-left: 8px;}
 
-      dl{
-         width: 550px;
-         margin-left: 280px;
-         font-size: 18px;}
-
-      dd{
-        width: 250px;
-        overflow: hidden;
-       padding-left: 1px;
-      }
-
-
-      dt { float: left; width: 180px; overflow: hidden; white-space: nowrap;}
-
-
-      dt span:after { content: " ........................................" }
-
+      dt span:after { content: " .........................................................." }
 
       .kawaii_info {
         flex-direction: column;
